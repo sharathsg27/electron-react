@@ -1,0 +1,38 @@
+{
+  "name": "electron-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "electron-start": "BROWSER=none electron .",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "react-start": "BROWSER=none react-scripts start"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "src/electron-main.js",
+  "devDependencies": {
+    "bulma": "^0.7.1",
+    "electron": "^2.0.6",
+    "electron-settings": "^3.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "reactbulma": "^3.0.4",
+    "wait-on": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharathsg27/electron-react.git"
+  },
+  "author": "Sharath S",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sharathsg27/electron-react/issues"
+  },
+  "homepage": "https://github.com/sharathsg27/electron-react#readme"
+}
